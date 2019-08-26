@@ -29,6 +29,19 @@ class Project extends Component {
               here
             </a>
           </li>
+          <li>
+            AnimeMe: a website for anime synopsis and tracking user favorites{" "}
+            <br />
+            API is hosted <a href="https://animeme-api.herokuapp.com/">here</a>
+            <br />
+            Repo is hosted{" "}
+            <a href="https://github.com/SirAirdude/ga-project-3-animeDB-api">
+              here
+            </a>
+            Website is hosted <a href="http://animeme.surge.sh/">here</a>
+            <br />
+            <a href="https://github.com/KeeneWong/Animeme">here</a>
+          </li>
         </ul>
       </div>
     );
