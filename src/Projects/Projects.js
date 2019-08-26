@@ -7,8 +7,7 @@ class Project extends Component {
         <h2>These are the projects I have worked on</h2>
         <ul>
           <li>
-            Simon Says
-            <br />
+            <h3>Simon Says</h3>
             Play the game{" "}
             <a href="https://sirairdude.github.io/ga-project1-simon/">here</a>
             <br />
@@ -17,7 +16,9 @@ class Project extends Component {
           </li>
           <br />
           <li>
-            Database API for Digimon Cyber Sleuth <br />
+            <h3>
+              Database API for Digimon Cyber Sleuth <br />
+            </h3>
             API is hosted
             <a href="https://digimon-cyber-sleuth-api.herokuapp.com/api/digimon">
               here
@@ -29,8 +30,15 @@ class Project extends Component {
               here
             </a>
           </li>
+          <br />
           <li>
-            AnimeMe: a website for anime synopsis and tracking user favorites{" "}
+            <h3>
+              AnimeMe: a website for anime synopsis and tracking user favorites{" "}
+            </h3>
+            Website is hosted <a href="http://animeme.surge.sh/">here</a>
+            <br />
+            Repo hosted here
+            <a href="https://github.com/KeeneWong/Animeme">here</a>
             <br />
             API is hosted <a href="https://animeme-api.herokuapp.com/">here</a>
             <br />
@@ -38,9 +46,6 @@ class Project extends Component {
             <a href="https://github.com/SirAirdude/ga-project-3-animeDB-api">
               here
             </a>
-            Website is hosted <a href="http://animeme.surge.sh/">here</a>
-            <br />
-            <a href="https://github.com/KeeneWong/Animeme">here</a>
           </li>
         </ul>
       </div>
