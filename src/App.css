@@ -1,3 +1,7 @@
+body {
+  background-image: url("./img/antonio-grosz-OIzy-UubqrE-unsplash.jpg");
+  background-size: 100%, auto;
+}
 nav {
   text-decoration: none;
   background-color: black;
