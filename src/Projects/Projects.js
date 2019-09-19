@@ -5,7 +5,26 @@ class Project extends Component {
     return (
       <div className="projects-page">
         <h2>These are the projects I have worked on</h2>
-        <div>
+        <div className="projects-list">
+          <div className="project">
+            <h3 className="project-name">Who's That Pokemon</h3>
+            <p className="project-description">
+              A web page that uses a object detection model trained using
+              TensorFlow. The model is trained to identify one of five{" "}
+              <span className="digimon">Pokemon</span>
+            </p>
+            <p className="project-hosting">
+              Website is hosted <br />{" "}
+              <a href="http://whosthatpokemon.surge.sh/">here</a>
+              <br />
+              Repo is hosted{" "}
+              <a href="https://github.com/SirAirdude/ga-project-4-pkmn-image-db">
+                here
+              </a>
+            </p>
+            <div id="pokemon" className="project-image" />
+          </div>
+          <br />
           <div className="project">
             <h3 className="project-name">Simon Says</h3>
             <p className="project-description">
@@ -43,9 +62,7 @@ class Project extends Component {
                 here
               </a>
             </p>
-            <div className="project-image" id="digimon">
-              placeholder
-            </div>
+            <div className="project-image" id="digimon" />
           </div>
           <br />
           <div className="project">

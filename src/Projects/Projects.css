@@ -1,22 +1,19 @@
 .project {
-  /* text-align: center; */
-  /* margin: 0, auto; */
-  justify-content: center;
   background-color: blue;
   display: grid;
   max-width: 900px;
+  margin: 0 auto;
   grid-template-columns: 1fr 1fr 1fr 300px;
   grid-template-rows: 150px 150px;
 }
 
 .project-description {
-  width: 250px;
   grid-column: 1 / span 3;
   grid-row: 2;
 }
 
 .project-hosting {
-  grid-row: 1 / span 2;
+  grid-row: 1;
   grid-column: 3;
 }
 
@@ -30,16 +27,34 @@
   grid-column: 1 / span 2;
 }
 
-.projects-page {
-  justify-content: center;
+.projects-list {
+  width: 100%;
 }
 
 .digimon {
   text-decoration: underline;
 }
 
+#digimon {
+  background-image: url("../img/digimoncdapi.png");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
 #simon {
   background-image: url("../img/simon-main.png");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+#animeme {
+  background-image: url("../img/Animeme.png");
+  background-repeat: no-repeat;
+  background-size: 300px 300px;
+}
+
+#pokemon {
+  background-image: url("../img/whosthatpkmn.png");
   background-repeat: no-repeat;
   background-size: 300px 300px;
 }
