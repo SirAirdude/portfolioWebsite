@@ -15,7 +15,7 @@ class Project extends Component {
             </p>
             <p className="project-hosting">
               Website is hosted <br />{" "}
-              <a href="http://whosthatpokemon.surge.sh/">here</a>
+              <a href="http://whosthatpokemon.surge.sh">here</a>
               <br />
               Repo is hosted{" "}
               <a href="https://github.com/SirAirdude/ga-project-4-pkmn-image-db">
